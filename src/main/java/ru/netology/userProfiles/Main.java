@@ -1,0 +1,17 @@
+package ru.netology.userProfiles;
+public class Main {
+    public static void main(String[] args) {
+        Post post = new Post();
+        post.birthday = new FormDate();
+        //заполнение карточки
+        post.name = "Ivan";
+        post.patronymic = "Ivanovich";
+        post.surname = "Ivanov";
+        post.passport = "4444№44444444";
+        post.phone = "+7(999)-999-99-99";
+        post.subcription = true;
+        post.birthday.day = 13;
+        post.birthday.month = 6;
+        post.birthday.year = 1999;
+    }
+}
